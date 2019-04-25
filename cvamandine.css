@@ -40,18 +40,21 @@ p
 display: flex;
 weight:50%;
 }
-.element
+
+#conteneur div
 {
-display: flex;
-width: 50%;
-height: 50%;
+	flex-direction: column;
+    flex:1
+}
+
+#conteneur h2
+{
 font-size: 1.2em
 }
 .description
 {
 	display:flex;
-	flex-direction: row;
-	justify-content: flex-end;
+	flex-direction: column;
 }
 
 body
