@@ -57,7 +57,7 @@ font-size: 1.2em
 body
 {
 	color: black;
-	background-image: url("fondcv.png");
+	background-color: lightgreen;
 	background-repeat: repeat;
 }
 strong
