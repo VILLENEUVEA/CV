@@ -11,19 +11,16 @@
 }
 h1
 {
-	font-family:'3dumbregular';
+	font-family:'Arial';
 	color: purple;
-	text-align: center;
+	text-align: left;
 	text-shadow: 6px 6px 20px;
 }
 
 h2
 {
-	text-align: left;
+	text-align: center;
 	color: purple;
-    border:2px purple solid ;
-
-	
 }
 
 p
@@ -34,7 +31,7 @@ p
 }
 .imageflottante
 {
-	float: left;
+	float: right;
 
 }
 
@@ -63,4 +60,13 @@ body
 strong
 {
 	font-weight: bold;
+}
+#conteneur
+{
+display: flex;
+}
+
+.element:nth-child(1)
+{
+    background-color: black
 }

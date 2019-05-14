@@ -1,0 +1,19 @@
+#conteneur
+{
+    display: flex
+    justify-content: center
+
+
+}
+.element:nth-child(1)
+{
+background-color: blue;
+}
+.element:nth-child(2)
+{
+background-color: blueviolet
+}
+.element:nth-child(3)
+{
+background-color: yellow
+}
